@@ -1,0 +1,22 @@
+Deepak Hared
+5:13 PM
+Student
+- id
+- name
+
+ExamResult
+- student_id
+- subject_id
+- marks
+
+Subject
+- id
+- name
+
+
+select * from ExamResult where (marks >= 33);
+
+
+stu =Student.objects.get(id=id)      
+stu2 = ExamResult.object.filter(student_id=stu,marks>=33)
+
